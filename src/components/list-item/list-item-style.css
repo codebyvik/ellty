@@ -1,0 +1,12 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 8px 7px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-item p {
+    font-size: 14px;
+    font-weight: 400;
+}

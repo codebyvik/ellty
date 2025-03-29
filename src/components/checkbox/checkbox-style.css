@@ -1,0 +1,28 @@
+.checkbox-container {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    border: 1px solid var(--light-gray-border-200);
+    border-radius: 6px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--check-box-tick-gray);
+}
+
+.checkbox.checked {
+    background-color: var(--blue-primary) !important;
+    color: var(--check-box-tick-white) !important;
+}
+
+.checkbox.checked:hover {
+    background-color: var(--blue-primary-disabled) !important;
+}
